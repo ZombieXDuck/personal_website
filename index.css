@@ -1,0 +1,93 @@
+.background {
+  background-color: rgb(238, 226, 214);
+}
+
+.sizzle {
+  max-height: 1000px;
+}
+
+.sizzle-text {
+  width: 50%;
+  font-size: 22px;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .sizzle-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .sizzle-text {
+    font-size: 12px;
+  }
+}
+
+.sizzle-picture-container {
+  width: 50%;
+}
+
+.sizzle-picture {
+  width: 50px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  visibility: hidden;
+}
+
+.info {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  visibility: hidden;
+}
+
+a:link, a:visited, a:hover {
+    color: black;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideAcross {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+.slideAcross {
+  animation-name: slideAcross;
+  animation-timing-function: ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-timing-function: ease;
+}
+
+.half_column {
+  display: inline-block;
+  width: 50%;
+}

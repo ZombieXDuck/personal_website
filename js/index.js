@@ -24,4 +24,5 @@ function startTitles() {
 
 function finishAnimation() {
   $("#info").addClass("fadeIn");
+  $("#sizzle-picture").addClass("fadeIn");
 }

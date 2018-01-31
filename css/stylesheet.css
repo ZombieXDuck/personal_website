@@ -1,0 +1,58 @@
+.background {
+  background-color: rgb(238, 226, 214);
+}
+
+.sizzle {
+  margin: 3em 0;
+}
+
+.sizzle-text {
+  width: 50%;
+  font-size: 22px;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .sizzle-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .sizzle-text {
+    font-size: 12px;
+  }
+}
+
+.sizzle-picture-container {
+  width: 50%;
+}
+
+.sizzle-picture {
+  width: 100%;
+  visibility: hidden;
+  -webkit-filter: grayscale(33%);
+  filter: grayscale(33%);
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  visibility: hidden;
+}
+
+.info {
+  margin-top: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  visibility: hidden;
+}
+
+a:link, a:visited, a:hover {
+    color: black;
+}
+
+.black {
+  background-color:black;
+}

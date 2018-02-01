@@ -1,15 +1,17 @@
 .background {
-  background-color: rgb(238, 226, 214);
+  background-color: #85bdee;
 }
 
 .sizzle {
-  margin: 3em 0;
+  min-height: 800px;
+  margin-top: 3em;
 }
 
 .sizzle-text {
+  margin-left: 3em;
   width: 50%;
   font-size: 22px;
-  color: black;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -24,15 +26,12 @@
   }
 }
 
-.sizzle-picture-container {
-  width: 50%;
-}
-
 .sizzle-picture {
-  width: 100%;
+  width: 70%;
   visibility: hidden;
-  -webkit-filter: grayscale(33%);
-  filter: grayscale(33%);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
 
 .title {
@@ -53,6 +52,6 @@ a:link, a:visited, a:hover {
     color: black;
 }
 
-.black {
-  background-color:black;
+.aboutMe {
+  background-color: #F16C6A;
 }

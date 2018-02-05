@@ -1,57 +1,33 @@
-.background {
-  background-color: #85bdee;
-}
-
 .sizzle {
-  min-height: 800px;
-  margin-top: 3em;
+  font-size: 22px;
+  height: 800px;
+  /* background: #85bdee; */
+  background: #ffc3a0;
+  background: -webkit-linear-gradient(to right, #FFAFBD, #ffc3a0);
+  background: linear-gradient(to right, #FFAFBD, #ffc3a0);
+
 }
 
 .sizzle-text {
-  margin-left: 3em;
-  width: 50%;
-  font-size: 22px;
+  padding-top: 4em;
+  padding-left: 4em!important;
   color: white;
-}
-
-@media only screen and (max-width: 768px) {
-  .sizzle-text {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .sizzle-text {
-    font-size: 12px;
-  }
-}
-
-.sizzle-picture {
-  width: 70%;
   visibility: hidden;
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.75);
 }
 
-.title {
+.sizzle-title {
   font-family: 'Poppins', sans-serif;
   font-size: 1.5em;
-  visibility: hidden;
 }
 
-.info {
-  margin-top: 3em;
+.sizzle-info {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  visibility: hidden;
 }
 
-a:link, a:visited, a:hover {
-    color: black;
-}
-
-.aboutMe {
-  background-color: #F16C6A;
+.sizzle-picture {
+  opacity: 0.5;
+  /* background:url("../assets/cody-cut-out-blue.png") bottom right no-repeat */
 }

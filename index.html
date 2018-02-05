@@ -1,46 +1,41 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <title>Cody Hennighan</title>
     <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="./css/animations.css" rel="stylesheet" type="text/css">
+    <link href="./node_modules/bootstrap/scss/bootstrap.scss" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body class="background">
-      <div class="row sizzle">
-        <div class="sizzle-text col-sm">
-          <p class="animated title" id="passion">
+  <body>
+      <div class="sizzle row">
+        <div class="sizzle-text col-sm-6">
+          <p class="animated sizzle-title" id="passion">
             You Need Passion.
           </p>
-          <p class="animated title" id="dedication">
+          <p class="animated sizzle-title" id="dedication">
             You Need Dedication.
           </p>
-          <p class="animated title" id="skill">
+          <p class="animated sizzle-title" id="skill">
             You Need Skill.
           </p>
-          <p class="animated title" id="name">
+          <p class="animated sizzle-title" id="name">
             You Need <b>Cody Hennighan.</b>
           </p>
-          <div class="animated info" id="info">
+          <div class="animated sizzle-info" id="info">
             All great businesses need great people, but finding those people can be   hard.
             Introducing Cody Hennighan.
             Cody has acquired skills from a year of personal experience and a year of commerical experince in web developement.
             With skill, passion and dedication Cody is one of those great people ready to join a great business.
           </div>
         </div>
-        <div class="col-sm">
-          <img id="sizzle-picture" class="animated sizzle-picture" src="./assets/cody-cut-out-blue.png" />
+        <!-- end of sizzle-text -->
+        <div class="sizzle-picture col-sm-6">
         </div>
       </div>
-
-      <div class="row aboutMe">
-          About me
-      </div>
-
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous">
-    </script>
+      <!-- end of sizzle -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./js/index.js"> </script>
   </body>
 </html>

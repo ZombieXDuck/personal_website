@@ -31,3 +31,12 @@
   opacity: 0.5;
   /* background:url("../assets/cody-cut-out-blue.png") bottom right no-repeat */
 }
+
+.down-arrow-container {
+  background-color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+}
+
+.down-arrow {
+  color: white;
+}
